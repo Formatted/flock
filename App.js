@@ -15,13 +15,13 @@ export default class App extends React.Component {
   render() {
 
     return (
-      <View>
+      <View style={{ flex: 1}}>
         <View style={styles.title}>
           <Text style={{textAlign: 'center'}}> Inception Time </Text>
         </View>
         <Speed />
         <View style={styles.down}>
-          <Text> asdasd </Text>
+          <Text> Is this even here??? </Text>
         </View>
       </View>
     );
