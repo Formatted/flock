@@ -40,8 +40,8 @@ class Spinner extends React.Component {
     return (
       <View style={styles.overlay}>
         <Animated.Image
-          style={{ width: 214.5, height: 190.5, transform: [{rotate: spin}] }}
-          source={{uri: 'https://s3.amazonaws.com/media-p.slid.es/uploads/alexanderfarennikov/images/1198519/reactjs.png'}} />
+          style={{ width: 250, height: 250, transform: [{rotate: spin}] }}
+          source={require('./style/hand.png')} />
       </View>
       );
   }
@@ -49,3 +49,5 @@ class Spinner extends React.Component {
 }
 
 module.exports = Spinner;
+
+// source={{uri: 'https://s3.amazonaws.com/media-p.slid.es/uploads/alexanderfarennikov/images/1198519/reactjs.png'}} />

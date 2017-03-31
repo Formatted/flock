@@ -4,15 +4,15 @@ const {StyleSheet} = React
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
     justifyContent: 'center',
+    alignItems: 'center',
+
   },
   overlay: {
     flex: 1,
     position: 'absolute',
-    left: 10,
-    top: 40,
+    left: 0,
+    top: 0,
     opacity: 0.5,
   },
   down: {
@@ -21,3 +21,5 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-end',
   }
 });
+
+module.exports = styles
