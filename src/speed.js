@@ -42,7 +42,7 @@ class Speed extends React.Component {
     render() {
 
       return (
-        <View>
+        <View style={{flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
           <Button
             title="Slow down"
             onPress={this._slowDown}

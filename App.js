@@ -16,7 +16,9 @@ export default class App extends React.Component {
 
     return (
       <View>
-        <Text> asdasd </Text>
+        <View style={styles.title}>
+          <Text style={{textAlign: 'center'}}> Inception Time </Text>
+        </View>
         <Speed />
         <View style={styles.down}>
           <Text> asdasd </Text>

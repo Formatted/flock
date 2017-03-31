@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
   overlay: {
     flex: 1,
     position: 'absolute',
-    left: 0,
+    left: -125,
     top: 0,
     opacity: 0.5,
   },
@@ -19,6 +19,13 @@ const styles = StyleSheet.create({
     flex: 1,
     position: 'relative',
     justifyContent: 'flex-end',
+  },
+  title: {
+    backgroundColor: 'powderblue',
+    height: 50,
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
   }
 });
 
